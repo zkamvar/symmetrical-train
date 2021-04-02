@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Subdir Title</title>
+    <link rel="canonical" href="https://zkamvar.github.io/symmetrical-train/subdir/" />
+    <style type="text/css">
+    /* --- application CSS here --- */
+    *{
+      background-color: #F5F4F0;
+      font-family: Georgia, serif;
+    }
+    </style>
+</head>
+<body>
+  <h1>Subdir Content</h1>
+  <a href="../"> Back To Index </a>
+  <script>
+  // register ServiceWorker, remember to use absolute path!
+  if (navigator.serviceWorker) {
+    navigator.serviceWorker.register('/symmetrical-train/sw.js', {scope: '/symmetrical-train/'})
+  }
+  
+  </script>
+</body>
+</html>
